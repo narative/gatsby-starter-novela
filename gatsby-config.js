@@ -1,33 +1,29 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Damilola Ajiboye`,
+    name: `Damilolaa`,
+    siteUrl: `https://damilolaa.xyz`,
+    description: `Damilola Ajiboye's Website`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Musings about Product Management, Design and Development.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/Steve_dammy`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
-      },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://github.com/McSteve7`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/in/damilola-ajiboye/`,
       },
       {
         name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://dribbble.com/DamilolaA`,
       },
     ],
   },
@@ -38,6 +34,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
+        mailchimp: true,
         authorsPage: true,
         sources: {
           local: true,
@@ -48,8 +45,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Damilola Ajiboye`,
+        short_name: `Damilolaa`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
@@ -62,5 +59,13 @@ module.exports = {
       options: {
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: "https://xyz.us7.list-manage.com/subscribe/post?u=e659c3349892dbd4b7edbca3c&id=6d82188ef3", 
+      },
+    },
   ],
 };
+
+
