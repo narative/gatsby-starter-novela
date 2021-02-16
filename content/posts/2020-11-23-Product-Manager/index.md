@@ -46,7 +46,7 @@ Slyde is a financial technology company based in Lagos, Nigeria with coverage in
 
 ---
 
-Lastly,,
+Lastly,
 
 The goal of a product team is to delight its user by providing an excellent solution to their pain points regardless of the job title/role. Irrespective of your job role on a product team, you should always be driven by user empathy and the company’s goal as this will in-turn make you collaborate better among the team. A product person should first and foremost see themselves as a product leader — one who makes sure the user’s need is always advocated for, despite top executive declination, the product person is to persuasively align the executive to this.
 
